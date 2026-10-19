@@ -1,0 +1,30 @@
+.body {
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: center;
+    
+
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+    padding: 10%;
+    
+    width: 320px;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+#submit {
+    align-self: flex-end;
+}
